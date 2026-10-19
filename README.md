@@ -51,12 +51,12 @@ The main implementation is located in `controller_pkg/src/controller_node.cpp`. 
 Place `controller_pkg` in the `src` directory of the VNAV catkin workspace, then run:
 
 ```bash
-cd ~/catkin_ws
+cd ~/vnav_ws
 catkin build
 source devel/setup.bash
 ```
 
-The package depends on `roscpp`, `rospy`, `std_msgs`, `geometry_msgs`, `mav_msgs`, `tf`, `tf2`, and Eigen3.
+The package depends on `roscpp`, `rospy`, `std_msgs`, `geometry_msgs`, `mav_msgs`, `nav_msgs`, `trajectory_msgs`, `tf`, `tf2`, `tf2_ros`, `tf2_geometry_msgs`, `tf2_eigen`, and Eigen3.
 
 ## Run
 
